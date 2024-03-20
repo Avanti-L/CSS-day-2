@@ -1,0 +1,61 @@
+.card {
+    width: 300px;
+    margin: 80px auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-header {
+    position: relative;
+    display: block;
+}
+
+.discount .p3 {
+    position: absolute;
+    bottom: 7px;
+    color: white;
+    background-color: rgb(18, 115, 252);
+    font-size: 14px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding-right: 5px;
+}
+
+.discount .p2 {
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.discount .p4 {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background-color: gray;
+    color: lightgray;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.p1 {
+    color: gray;
+}
+
+.footer {
+    border-top: 1px solid lightgray;
+    font-size: 14px;
+    color: gray;
+}
+
